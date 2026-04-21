@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thota Nagasruthy | Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body { scroll-behavior: smooth; }
+        .hero {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .section-title {
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Nagasruthy</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <h1>Thota Nagasruthy</h1>
+        <p>B.Tech CSE Student | Aspiring Software Developer</p>
+        <p>Guntur, Andhra Pradesh</p>
+    </div>
+</section>
+
+<section id="about" class="container py-5">
+    <h2 class="section-title text-center">About Me</h2>
+    <p class="text-center">
+        I am currently pursuing B.Tech in Computer Science Engineering.
+        I have knowledge in programming, frontend development, and core subjects like
+        Data Structures, DBMS, and Operating Systems. I am passionate about building real-world applications.
+    </p>
+</section>
+
+<section id="education" class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Education</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>B.Tech (CSE)</h5>
+                    <p>Vignan University</p>
+                    <p><strong>Currently Pursuing (2nd Year)</strong></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>Intermediate</h5>
+                    <p>Sri Chaitanya Junior College</p>
+                    <p>88%</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5>SSC</h5>
+                    <p>KSR ZP High School</p>
+                    <p>84%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="container py-5">
+    <h2 class="section-title text-center">Skills</h2>
+    <div class="row text-center">
+        <div class="col-md-3"><div class="card p-3">C</div></div>
+        <div class="col-md-3"><div class="card p-3">Python</div></div>
+        <div class="col-md-3"><div class="card p-3">Java</div></div>
+        <div class="col-md-3"><div class="card p-3">Frontend Development</div></div>
+        <div class="col-md-3 mt-3"><div class="card p-3">Data Structures</div></div>
+        <div class="col-md-3 mt-3"><div class="card p-3">DBMS</div></div>
+        <div class="col-md-3 mt-3"><div class="card p-3">Operating Systems</div></div>
+    </div>
+</section>
+
+<section id="projects" class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Projects</h2>
+        <div class="card p-4">
+            <h5>SkinLove AI</h5>
+            <p>
+                Developed an AI-based skincare solution that analyzes skin conditions
+                and provides recommendations.
+            </p>
+            <p><strong>Technologies:</strong> Python, AI Concepts</p>
+        </div>
+    </div>
+</section>
+
+<section id="certifications" class="container py-5">
+    <h2 class="section-title text-center">Certifications</h2>
+    <ul class="list-group">
+        <li class="list-group-item">
+            Cisco Certifications: Java, Python, C Programming, Operating Systems
+        </li>
+        <li class="list-group-item">PET Certification</li>
+        <li class="list-group-item">BEC Certification (English)</li>
+    </ul>
+</section>
+
+<section id="contact" class="container py-5">
+    <h2 class="section-title text-center">Contact</h2>
+    <div class="text-center">
+        <p><strong>Phone:</strong> 987654321</p>
+        <p><strong>Email:</strong> sruthithota@gmail.com</p>
+        <button class="btn btn-primary" onclick="showMessage()">Say Hello</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Thota Nagasruthy</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+function showMessage() {
+    alert("Thank you for visiting my portfolio!");
+}
+</script>
+
+</body>
+</html>
